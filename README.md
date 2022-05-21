@@ -4,4 +4,5 @@ Coredataでone to manyリレーションシップを構築 子ModelのCRUD
 
 ↓ fetchした親Entityにある子要素をリスト表示して、CRUDした様子
 子要素の追加と削除は反応するが、更新はUIがRefreshしない
-https://user-images.githubusercontent.com/40202387/169654606-904ab849-eb04-4ce4-b4b0-036c937f45a3.gif
+![no update](https://user-images.githubusercontent.com/40202387/169654606-904ab849-eb04-4ce4-b4b0-036c937f45a3.gif)
+
