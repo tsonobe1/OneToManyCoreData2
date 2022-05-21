@@ -13,6 +13,11 @@
 		0C7A7B7E28390E0B0060D05B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C7A7B7D28390E0B0060D05B /* Preview Assets.xcassets */; };
 		0C7A7B8028390E0B0060D05B /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C7A7B7F28390E0B0060D05B /* Persistence.swift */; };
 		0C7A7B8328390E0B0060D05B /* OneToManyCoreData2.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0C7A7B8128390E0B0060D05B /* OneToManyCoreData2.xcdatamodeld */; };
+		0C7A7B8D283914140060D05B /* Employee+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C7A7B89283914140060D05B /* Employee+CoreDataClass.swift */; };
+		0C7A7B8E283914140060D05B /* Employee+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C7A7B8A283914140060D05B /* Employee+CoreDataProperties.swift */; };
+		0C7A7B8F283914140060D05B /* Department+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C7A7B8B283914140060D05B /* Department+CoreDataClass.swift */; };
+		0C7A7B90283914140060D05B /* Department+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C7A7B8C283914140060D05B /* Department+CoreDataProperties.swift */; };
+		0C7A7B9428391D200060D05B /* EmployeeList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C7A7B9328391D200060D05B /* EmployeeList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +28,11 @@
 		0C7A7B7D28390E0B0060D05B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		0C7A7B7F28390E0B0060D05B /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		0C7A7B8228390E0B0060D05B /* OneToManyCoreData2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = OneToManyCoreData2.xcdatamodel; sourceTree = "<group>"; };
+		0C7A7B89283914140060D05B /* Employee+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Employee+CoreDataClass.swift"; sourceTree = "<group>"; };
+		0C7A7B8A283914140060D05B /* Employee+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Employee+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		0C7A7B8B283914140060D05B /* Department+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Department+CoreDataClass.swift"; sourceTree = "<group>"; };
+		0C7A7B8C283914140060D05B /* Department+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Department+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		0C7A7B9328391D200060D05B /* EmployeeList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +49,10 @@
 		0C7A7B6A28390E0A0060D05B = {
 			isa = PBXGroup;
 			children = (
+				0C7A7B89283914140060D05B /* Employee+CoreDataClass.swift */,
+				0C7A7B8A283914140060D05B /* Employee+CoreDataProperties.swift */,
+				0C7A7B8B283914140060D05B /* Department+CoreDataClass.swift */,
+				0C7A7B8C283914140060D05B /* Department+CoreDataProperties.swift */,
 				0C7A7B7528390E0A0060D05B /* OneToManyCoreData2 */,
 				0C7A7B7428390E0A0060D05B /* Products */,
 			);
@@ -57,6 +71,7 @@
 			children = (
 				0C7A7B7628390E0A0060D05B /* OneToManyCoreData2App.swift */,
 				0C7A7B7828390E0A0060D05B /* ContentView.swift */,
+				0C7A7B9328391D200060D05B /* EmployeeList.swift */,
 				0C7A7B7A28390E0B0060D05B /* Assets.xcassets */,
 				0C7A7B7F28390E0B0060D05B /* Persistence.swift */,
 				0C7A7B8128390E0B0060D05B /* OneToManyCoreData2.xcdatamodeld */,
@@ -144,9 +159,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				0C7A7B8028390E0B0060D05B /* Persistence.swift in Sources */,
+				0C7A7B8E283914140060D05B /* Employee+CoreDataProperties.swift in Sources */,
 				0C7A7B7928390E0A0060D05B /* ContentView.swift in Sources */,
 				0C7A7B8328390E0B0060D05B /* OneToManyCoreData2.xcdatamodeld in Sources */,
+				0C7A7B8D283914140060D05B /* Employee+CoreDataClass.swift in Sources */,
+				0C7A7B90283914140060D05B /* Department+CoreDataProperties.swift in Sources */,
+				0C7A7B9428391D200060D05B /* EmployeeList.swift in Sources */,
 				0C7A7B7728390E0A0060D05B /* OneToManyCoreData2App.swift in Sources */,
+				0C7A7B8F283914140060D05B /* Department+CoreDataClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
